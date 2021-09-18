@@ -48,6 +48,13 @@ class ViewController: UIViewController {
 }
 
 
+// REALIZANDO INTERFAZ CON CODIGO
+//         view.backgroundColor = .orange
+//         let lbl_text = UILabel()
+//         lbl_text.text = mensaje
+//         lbl_text.frame = CGRect(x: 0, y: 50, width: 100, height: 50)
+//         view.addSubview(lbl_text)
+
 
 
 
