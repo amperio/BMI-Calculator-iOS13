@@ -35,6 +35,10 @@ class ViewController: UIViewController {
         let weight = sld_weight.value
         brain.calculateIBM(weight: weight, height: height)
         self.performSegue(withIdentifier: "goToNext", sender: self)
+        // Sin usar Storyboards
+//        let secondVC = SecondViewController()
+//        secondVC.mensaje = String(format: "%.1f", calculatorBrain.getBMI())
+//        self.present(secondVC, animated: true, completion: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
